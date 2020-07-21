@@ -1,10 +1,15 @@
 <template>
-  <div>登陆界面</div>
+  <NavBar></NavBar>
 </template>
 
 <script>
+  import NavBar from "../../components/navbar/NavBar";
+
   export default {
-    name: "Login"
+    name: "Login",
+    components: {
+      NavBar
+    }
   }
 </script>
 
